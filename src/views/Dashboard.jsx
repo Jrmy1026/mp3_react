@@ -1,3 +1,4 @@
+import { Outlet, Navigate, Link } from "react-router-dom";
 import Typed from "react-typed";
 import {
     FaDribbbleSquare,
@@ -47,6 +48,7 @@ export default function Dashboard() {
                         <div className="grid gap-8 items-start mt-4 justify-center  md:text-sm">
                             <div className="relative group">
                                 <div className="absolute -inset-2 bg-gradient-to-r from-[#FFDF71] via-[#F7934C] to-[#CC5803]  rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                                {/* finished */}
                                 <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
                                     <span className="flex items-center space-x-5">
                                         <span className="pr-6 hover:text-amber-500">
@@ -89,6 +91,7 @@ export default function Dashboard() {
                             and be a part of our family as a reader, writer, VA,
                             or translator.
                         </p>
+                        {/* need to hover */}
                         <button className="bg-black text-amber-500 w-[200px] rounded-md my-6 mx-auto md:mx-0 py-3 font-bold">
                             Get Started
                         </button>
@@ -115,6 +118,7 @@ export default function Dashboard() {
                                     type="email"
                                     placeholder="Enter Email"
                                 />
+                                {/* need to edit */}
                                 <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 py-3 flex">
                                     Subscribe!
                                 </button>
@@ -149,6 +153,7 @@ export default function Dashboard() {
                                     ✓ No translation or editing services
                                     available
                                 </p>
+                                {/* need to edit */}
                                 <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 mx-auto py-3 text-center mt-20">
                                     Get Started
                                 </button>
@@ -164,6 +169,7 @@ export default function Dashboard() {
                                 Apprentice
                             </h2>
                             <div className="text-center py-4">
+                                {/* need to edit */}
                                 <button className="bg-amber-500 py-2 text-xs w-80 text-center text-black rounded-lg font-semibold">
                                     One-time Payment available
                                 </button>
@@ -187,6 +193,7 @@ export default function Dashboard() {
                                     ✓ 150 words/month on translation and editing
                                     services
                                 </p>
+                                {/* need to edit */}
                                 <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 mx-auto py-3 text-center">
                                     Get Started
                                 </button>
@@ -206,6 +213,7 @@ export default function Dashboard() {
                                 Master
                             </h2>
                             <div className="text-center py-4">
+                                {/* need to edit */}
                                 <button className="bg-amber-500 py-2 text-xs w-80 text-center text-black rounded-lg font-semibold">
                                     One-time Payment available
                                 </button>
@@ -233,6 +241,7 @@ export default function Dashboard() {
                                     ✓ 1 commision-free artwork/month from our
                                     graphic designers
                                 </p>
+                                {/* need to edit */}
                                 <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 mx-auto py-3 mt-20 text-center">
                                     Get Started
                                 </button>
@@ -252,6 +261,7 @@ export default function Dashboard() {
                                 Exalted
                             </h2>
                             <div className="text-center py-4">
+                                {/* need to edit */}
                                 <button className="bg-amber-500 py-2 text-xs w-80 text-center text-black rounded-lg font-semibold">
                                     One-time Payment available
                                 </button>
